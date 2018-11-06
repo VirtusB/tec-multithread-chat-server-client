@@ -161,7 +161,7 @@ class clientThread extends Thread {
             os.close();
             clientSocket.close();
         } catch (IOException e) {
-
+            System.out.println("Error");
         }
     }
 }
